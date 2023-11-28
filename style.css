@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Croissant+One&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Play:wght@400;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto&family=Roboto+Slab:wght@900&family=Space+Grotesk:wght@300;500&family=Young+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(138,129,139);
+    background: linear-gradient(180deg, rgba(138,129,139,0.9529061624649859) 0%, rgba(255,255,255,1) 91%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.heading{
+    font-family: Montserrat;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.heading-ph{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.points{
+    font-size: 3rem;
+}
+::placeholder{
+    color: black;
+    text-align: center;
+}
+#prompt{
+    display: flex;
+}
+.round-inp{
+    background-color: rgba(0,0,0,.3);
+    height: 3rem;
+    border-radius: 3px;
+    border: none;
+    width: 50%;
+}
+.round-submit{
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: .5rem;
+    background-color: transparent;
+}
+#won{
+    display: none;
+}
+#lost{
+    display: none;
+}
+#button-group{
+    display: flex;
+}
+#remaining{
+    display: none;
+}
+.choices{
+    width: 80%;
+}
